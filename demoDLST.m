@@ -12,5 +12,4 @@ trackOpts.verbose = true;
 cfg = loadOTBInfo('data/', 'Biker');
 
 % do tracking
-rng(0, 'twister')
 [res, fps] = DLST.process(cfg.img_files, cfg.ground_truth, trackOpts);

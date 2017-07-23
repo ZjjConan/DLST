@@ -3,9 +3,10 @@ function DLST_VOT16
 
     cleanup = onCleanup(@() exit() );
     
-    setupDLST();
 try    
     
+    setup_tracker_paths;
+
     RandStream.setGlobalStream(RandStream('mt19937ar', 'Seed', sum(clock))); % Set random seed to a different value every time as required by the VOT rules.
     
     [images, region] = vot_initialize();
@@ -32,7 +33,9 @@ try
         h = region(4);
     end
     region = double([cx - w/2, cy - h/2, w, h]);
-    [trkResults, ~, ~] = DLST.process(images, region);
+    
+    trkOpts = getDefaultOpts();
+    trkResults = DLST.process(images, region, trkOpts);
 
     results = cell(length(images), 1);
     for i = 1:numel(results)
@@ -51,7 +54,7 @@ catch err
         mkdir(error_report_path);
     end
     
-    report_file_name = [error_report_path tracker_name '_' runfile_name datestr(now,'_yymmdd_HHMM') '.mat'];
+    report_file_name = [error_report_path 'DLST' datestr(now,'_yymmdd_HHMM') '.mat'];
     
     save(report_file_name, 'err')
     

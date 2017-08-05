@@ -46,8 +46,8 @@ function [ bb_samples ] = gen_samples(type, bb, n, imageSize, scaleFactor, trans
             end
     end
 
-    samples(:,3) = max(5, min(w-5,samples(:,3)));
-    samples(:,4) = max(5, min(h-5,samples(:,4)));
+    samples(:,3) = max(10, min(w-10,samples(:,3)));
+    samples(:,4) = max(10, min(h-10,samples(:,4)));
 
     % [left top width height]
     bb_samples = [samples(:,1)-samples(:,3)/2 samples(:,2)-samples(:,4)/2 samples(:,3:4)];

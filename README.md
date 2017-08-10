@@ -48,11 +48,17 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 #### Citation
 If you find DLST useful in your research, please consider citing:
 
-	accepted by ACM MM 2017, bib will be coming soon
+	@inproceedings{yangDLSTMM17,
+  		title={Deep Location-Specific Tracking},
+  		author={Lingxiao Yang and Risheng Liu and David Zhang and Lei Zhang},
+  		booktitle={Proceedings of the 25th ACM international conference on Multimedia},
+  		year={2017},
+  		organization={ACM}
+	}
 
 #### License
 
 This software is being made available for research purpose only. 
 
-As we utilize or re-implement many functions from project [MDNet](https://github.com/HyeonseobNam/MDNet) and 
+We utilize or re-implement many functions from project [MDNet](https://github.com/HyeonseobNam/MDNet) and 
 [RCNN](https://github.com/rbgirshick/rcnn). please check their licence files for details.

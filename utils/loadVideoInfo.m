@@ -14,12 +14,6 @@ function [videos, loadVideoFunc] = loadVideoInfo(dataset, datapath)
     elseif strcmpi(dataset, 'VOT')
         videos = Utility.getVOTVideos(datapath);
         loadVideoFunc = @Utility.loadVOTInfo; 
-    elseif strcmpi(dataset, 'Hard')
-        videos = Utility.getHardVideos();
-        loadVideoFunc = @Utility.loadOTBInfo;
-    elseif strcmpi(dataset, 'Supp')
-        videos = Utility.getSuppVideos();
-        loadVideoFunc = @Utility.loadOTBInfo;
     else
         videos = Utility.getOTBVideosAtt(dataset);
         loadVideoFunc = @Utility.loadOTBInfo;

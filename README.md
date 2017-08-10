@@ -32,8 +32,7 @@ in ``utils/im_crop.m``, and uncomment the line 93-94 to use the matlab ``imresiz
 
 3. Change the path to your local path in ``setupDLST.m`` and the local tracker model path in ``utils/getDefaultOpts.m (opts.model)``.
 
-4. If you want create your own tracker model, please see the details in ``createDLST.m``. Currently, we only adopt VGG-M model
-for our paper.
+4. If you want create your own tracker model, please see the details in ``createDLST.m``. Currently, we only adopt VGG-M model in our paper.
 
 5. For VOT2016 testing, please install the [VOT official toolkit](https://github.com/votchallenge/vot-toolkit), and simply 
 copy the ``DLST\VOT2016\wrapper\tracker_DLST.m`` to your VOT workspace. 
@@ -41,13 +40,13 @@ copy the ``DLST\VOT2016\wrapper\tracker_DLST.m`` to your VOT workspace.
 
 #### Packed Results for OTB and VOT2016
 
-It is very time consuming for running this code on entire OTB and VOT2016 datasets. Ususally it will take around 1 day for OTB 
-testing (One-Pass), and 3 ~ 4 days for VOT2016 evaluation. You can simply download the results from following link.
+It is very time consuming for running this code on entire OTB100 and VOT2016 datasets. Ususally it will take around 1 day for OTB100 testing (One-Pass), and 3 ~ 4 days for VOT2016 evaluation. You can simply download all pre-computed results from following links.
 
-[BaiduYun](https://pan.baidu.com/s/1gfvfyjL) [OneDrive](https://1drv.ms/f/s!AjoDviVXbtjXgyzr_Nnc16AUS_yO)
+[BaiduYun](https://pan.baidu.com/s/1gfvfyjL) and [OneDrive](https://1drv.ms/f/s!AjoDviVXbtjXgyzr_Nnc16AUS_yO)
 
 
 #### Citation
+If you find DLST useful in your research, please consider citing:
 
 	accepted by ACM MM 2017, bib will be coming soon
 

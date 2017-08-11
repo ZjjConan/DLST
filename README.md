@@ -45,6 +45,20 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 [BaiduYun](https://pan.baidu.com/s/1gfvfyjL) and [OneDrive](https://1drv.ms/f/s!AjoDviVXbtjXgyzr_Nnc16AUS_yO)
 
 
+###### Results on OTB50
+
+![OTB50](https://raw.githubusercontent.com/ZjjConan/DLST/master/resultPlots/otb50.png)
+
+###### Results on OTB100
+
+![OTB100](https://raw.githubusercontent.com/ZjjConan/DLST/master/resultPlots/otb100.png)
+
+<!-- <img src="https://raw.githubusercontent.com/ZjjConan/DLST/master/resultPlots/otb50.png" align="middle" alt="plots_otb50" width="80%" height="90%">
+
+###### Result plot for OTB100 
+
+<img src="https://raw.githubusercontent.com/ZjjConan/DLST/master/resultPlots/otb100.png" align="middle" alt="plots_otb50" width="80%" height="90%"> -->
+
 #### Citation
 If you find DLST useful in your research, please consider citing:
 

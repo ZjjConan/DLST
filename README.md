@@ -4,7 +4,7 @@ by Lingxiao Yang, Risheng Liu, David Zhang, Lei Zhang at The Hong Kong Polytechn
 
 
 #### Introduction
-Deep Location-Specific Tracking (DLST) is an tracking framework based on deep convolutional networks, which decouples the tracking problem into two sub-tasks: a localization task and a classification task. The localization is a preprocess step to estimate the target location in the current frame. The output of localization with target position in the previous frames are both utilized to generate samples for further classification. The classification network is developed based on ''1x1'' convolution and global average pooling to reduce the overfitting problem online.
+Deep Location-Specific Tracking (DLST) is an tracking framework based on deep convolutional networks, which decouples the tracking problem into two sub-tasks: a localization task and a classification task. The localization is a preprocess step to estimate the target location in the current frame. The output of localization with target position in the previous frames are both utilized to generate samples for further classification. The classification network is developed based on ''1x1'' convolution and global average pooling to reduce the overfitting problem online. Without using any labeled tracking videos for fine-tuning, our tracker achieves competitive results on OTB 50 & 100 and VOT 2016 datasets.
 
 This code has been tested on Windows 10 64-bit and Ubuntu on MATLAB 2015a/2016b.
 
@@ -52,6 +52,9 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 ##### Results on OTB100
 
 ![OTB100](https://raw.githubusercontent.com/ZjjConan/DLST/master/resultPlots/otb100.png)
+
+##### Results on VOT16
+
 
 
 #### Citation

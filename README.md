@@ -55,6 +55,11 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 
 ##### Results on VOT16
 
+|	       |    DLST (Ours)  |  EBT   |  DDC   | Staple |  MLDF  |  SSAT  | TCNN   | C-COT  |
+| :----    |    :----:       | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|  EAO     |    0.343        | 0.291  | 0.293  | 0.295  | 0.311  | 0.321  | 0.325  | 0.331  |
+| Accuracy |    0.55         | 0.44   | 0.53   | 0.54   | 0.48   | 0.57   | 0.54   | 0.52   |
+| Fail.rt  |    0.83	     | 0.90   | 1.23   | 1.35   | 0.83   | 1.04   | 0.96   | 0.85   |
 
 
 #### Citation

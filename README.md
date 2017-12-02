@@ -65,12 +65,22 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 #### Citation
 If you find DLST useful in your research, please consider citing:
 
-	@inproceedings{yangDLSTMM17,
-  		title={Deep Location-Specific Tracking},
-  		author={Lingxiao Yang and Risheng Liu and David Zhang and Lei Zhang},
-  		booktitle={Proceedings of the 25th ACM international conference on Multimedia},
-  		year={2017},
-  		organization={ACM}
+	@inproceedings{DBLP:conf/mm/YangL0Z17,
+		author    = {Lingxiao Yang and
+			     Risheng Liu and
+			     David Zhang and
+			     Lei Zhang},
+		title     = {Deep Location-Specific Tracking},
+		booktitle = {Proceedings of the 2017 {ACM} on Multimedia Conference, {MM} 2017,
+			     Mountain View, CA, USA, October 23-27, 2017},
+		pages     = {1309--1317},
+		year      = {2017},
+		crossref  = {DBLP:conf/mm/2017},
+		url       = {http://doi.acm.org/10.1145/3123266.3123381},
+		doi       = {10.1145/3123266.3123381},
+		timestamp = {Fri, 20 Oct 2017 10:06:25 +0200},
+		biburl    = {http://dblp.org/rec/bib/conf/mm/YangL0Z17},
+		bibsource = {dblp computer science bibliography, http://dblp.org}
 	}
 
 #### License

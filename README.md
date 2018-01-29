@@ -63,8 +63,8 @@ It is very time consuming for running this code on entire OTB100 and VOT2016 dat
 
 
 #### Citation
-
 If you find DLST useful in your research, please consider citing:
+	
 	@inproceedings{yang2017deep,
   		title={Deep Location-Specific Tracking},
   		author={Yang, Lingxiao and Liu, Risheng and Zhang, David and Zhang, Lei},
